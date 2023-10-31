@@ -3,6 +3,6 @@ kind: Kustomization
 
 namespace: github
 resources:
-- namespace.yaml
-- service.yaml
-- deployment.yaml
+- kubernetes/namespace.yaml
+- kubernetes/service.yaml
+- kubernetes/deployment.yaml
